@@ -37,6 +37,8 @@ LOCAL_PACKAGE_NAME := Snap
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 
+LOCAL_CERTIFICATE := platform
+
 LOCAL_AAPT_FLAGS += --rename-manifest-package org.lineageos.snap
 
 #LOCAL_SDK_VERSION := current
